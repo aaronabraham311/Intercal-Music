@@ -10,31 +10,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 
-		<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		// Next/previous controls
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		// Thumbnail image controls
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			if (n > slides.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = slides.length}
-			for (i = 0; i < slides.length; i++) {
-					slides[i].style.display = "none";
-			}
-			slides[slideIndex-1].style.display = "block";
-		}
-		</script>
 	</head>
 	<body>
 
@@ -83,28 +58,9 @@
 									<h3 class="major">Senior Centres</h3>
 									<p>Intercal Music also aims to reach as many seniors in Calgary as possible with teh power of music. Below is a map of all locations where we have conducted events.</p>
 									<img src = "#">
-									<p> Here is a list of all senior homes where we have played: </p>
+									<p> Intercal Music has played at the following venues: </p>
 
-									<div class = "slideshow-container"> <!-- Slideshow of logos-->
-										<div class = "mySlides fade">
-											<img src = "images/pic05.jpg">
-										</div>
-										<div class = "mySlides fade">
-											<img src = "images/DSC_0026.jpg">
-										</div>
-										<div class = "mySlides fade">
-											<img src = "images/DSC_1838.jpg">
-										</div>
-										<div class = "mySlides fade">
-											<img src = "images/DSC_1859.jpg">
-										</div>
-										<div class = "mySlides fade">
-											<img src = "images/DSC_9997.jpg">
-										</div>
-
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  									<a class="next" onclick="plusSlides(1)">&#10095;</a>
-									</div>
+									<img src = "images/venue-logos.jpg">
 
 								</div>
 							</div>
